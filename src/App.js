@@ -1,9 +1,9 @@
 import React from 'react';
 import { Router } from 'react-router-dom';
-import history from './services/history';
-import Routes from './routes';
-import './config/Reactotron';
-import GlobalStyle from './styles/global';
+import history from '~/services/history';
+import Routes from '~/routes';
+import '~/config/Reactotron';
+import GlobalStyle from '~/styles/global';
 
 function App() {
   return (
