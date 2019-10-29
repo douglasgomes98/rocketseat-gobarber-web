@@ -26,7 +26,11 @@ export default function SignUp() {
       <Form schema={schema} onSubmit={handleSubmit} noValidate>
         <Input name="name" placeholder="Nome completo" />
         <Input name="email" type="email" placeholder="Seu e-mail" />
-        <Input name="email" type="password" placeholder="Sua senha secreta" />
+        <Input
+          name="password"
+          type="password"
+          placeholder="Sua senha secreta"
+        />
         <button type="submit">Acessar</button>
         <Link to="/">Já tenho login</Link>
       </Form>
