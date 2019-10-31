@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { lighten, darken } from 'polished';
+import { darken } from 'polished';
 
 export const Container = styled.section`
   max-width: 600px;
